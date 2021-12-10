@@ -1,0 +1,23 @@
+{
+	"private": true,
+	"scripts": {
+		"dev": "nuxi dev",
+		"build": "nuxi build",
+		"test": "jest",
+		"start": "node .output/server/index.mjs"
+	},
+	"devDependencies": {
+		"nuxt3": "latest",
+		"@babel/preset-typescript": "^7.16.0",
+		"@nuxtjs/eslint-config-typescript": "8.0.0",
+		"@testing-library/jest-dom": "^5.16.1",
+		"@testing-library/vue": "^6.4.2",
+		"@types/jest": "26",
+		"babel-jest": "26",
+		"jest": "26",
+		"ts-jest": "^26",
+		"ts-node": "^10.4.0",
+		"typescript": "^4.5.2",
+		"vue-jest": "^5.0.0-alpha.10"
+	}
+}
